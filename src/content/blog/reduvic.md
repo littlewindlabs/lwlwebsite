@@ -7,7 +7,7 @@ heroImage: '/ReduvicBlogHero.png'
 
 ## Occupational risk
 
-When the war in Ukraine broke out, social media was quickly flooded with graphic images and videos. Justin Seitz, my friend, mentor, and a seasoned OSINT researcher vented to me that the gore was too much. Some members of the community believed showing graphic violence was important to communicate the vileness of war to the public, and to help researchers remain emotionally grounded and connected — and I believe them!
+When the war in Ukraine broke out, social media was quickly flooded with graphic images and videos. Justin Seitz, my friend, mentor, and a seasoned OSINT researcher, vented to me that the gore was too much. Some members of the community believed showing graphic violence was important to communicate the vileness of war to the public, and to help researchers remain emotionally grounded and connected — and I believe them!
 
 But frequent exposure to that kind of stuff comes with a cost, too. [Just ask Justin.](https://www.bullshithunting.com/p/the-work-we-do-on-vicarious-trauma)
 
