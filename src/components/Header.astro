@@ -1,0 +1,77 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+	<nav>
+		<h2><a href="/"><span id="brand" ><img src="/lwl-logo-nobg.svg" width="32px" height="32px" style="border-radius: 0;">{SITE_TITLE}</span></a></h2>
+		<div class="internal-links">
+			<HeaderLink href="/blog">Blog</HeaderLink>
+			<HeaderLink href="/about">About</HeaderLink>
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0 1em;
+		background: white;
+		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+		position:fixed;
+		width:100%;
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-weight: 400;
+		color: #007AFF;
+		margin: 0 2em;
+	}
+	nav a {
+		text-align: center;
+		padding: 1em 0.5em;
+		color: #007AFF;
+		border-bottom: 4px solid transparent;
+		text-decoration: none;
+		min-width: 5em;
+	}
+	nav a.active {
+		text-decoration: none;
+		border-bottom-color: var(--accent);
+	}
+	.social-links,
+	.social-links a {
+		display: flex;
+	}
+
+
+	#brand { 
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: 'Fredoka';
+		font-weight: 500;
+		font-size: 1.2em;
+		gap: 16px;
+	}
+	@media (max-width: 720px) {
+		.social-links {
+			display: none;
+		}
+
+		nav { 
+			margin: 0;
+		}
+	}
+</style>
