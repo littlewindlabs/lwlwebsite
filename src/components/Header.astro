@@ -5,7 +5,7 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
-		<h2><a href="/"><span id="brand" ><img src="/lwl-logo-nobg.svg" width="32px" height="32px" style="border-radius: 0;">{SITE_TITLE}</span></a></h2>
+		<a href="/"><span id="brand" ><img src="/lwl-logo-nobg.svg" width="32px" height="32px" style="border-radius: 0;"><p>{SITE_TITLE}</p></span></a>
 		<div class="internal-links">
 			<HeaderLink href="/blog">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
@@ -15,7 +15,6 @@ import { SITE_TITLE } from '../consts';
 <style>
 	header {
 		margin: 0;
-		padding: 0 1em;
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
 	}
@@ -53,30 +52,39 @@ import { SITE_TITLE } from '../consts';
 		display: flex;
 	}
 
-	.internal-links { 
-		padding: 4px 0.5em 0;
-	}
-
-
+	
 	#brand { 
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		font-family: 'Fredoka';
 		font-weight: 500;
-		font-size: 1.2em;
+		font-size: 1em;
 		gap: 16px;
+		line-height: normal;
+		text-align: left;
+	}
+
+	#brand p {
+		margin: 0;
 	}
 	@media (max-width: 720px) {
 		.social-links {
 			display: none;
 		}
-
+		nav a {
+			min-width: 44px;
+		}
+		#brand { 
+			min-width: 44px;
+		}
+		#brand p{
+			display:none;
+		}
 		nav { 
 			padding: 0;
+			justify-content: space-around;
 		}
-		nav a {
-			min-width: 3em;
-		}
+
 	}
 </style>
