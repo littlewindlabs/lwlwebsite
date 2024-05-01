@@ -39,7 +39,7 @@ Enter Reduvic! Reduvic is a browser extension to help researchers manage the imp
 
 ### 1. Protection without obstruction
 
-Instead of completely obscuring images, Reduvic modifies them while keeping them recognizable. That way, you don’t have to pick between seeing nothing and seeing too much. Plus, there’s no clunky interface or sign in or anything — just click the Reduvic icon to toggle it on or of
+Instead of completely obscuring images, Reduvic modifies them while keeping them recognizable. That way, you don’t have to pick between seeing nothing and seeing too much. Plus, there’s no clunky interface or sign in or anything — just click the Reduvic icon to toggle it on or off.
 
 ### 2. Keeping you safe (in more ways than one)
 
